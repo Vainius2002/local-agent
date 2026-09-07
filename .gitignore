@@ -1,0 +1,9 @@
+.env
+*.db
+instance/
+key.pem
+cert.pem
+venv/
+__pycache__/
+start.py
+supervisor.py

@@ -1,0 +1,14 @@
+.git
+.env
+.env.example
+venv
+__pycache__
+*.pyc
+*.db
+instance
+key.pem
+cert.pem
+manually.md
+ssl-run.md
+start.py
+supervisor.py
