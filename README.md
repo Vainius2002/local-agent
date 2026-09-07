@@ -10,7 +10,7 @@ Typing `/convo` switches into a persistent conversation mode that keeps history 
 
 ## Authentication
 
-This app has no login of its own. It delegates that to a separate service, [`auth`](<link-to-auth-repo>):
+This app has no login of its own. It delegates that to a separate service, [`auth`](https://github.com/Vainius2002/local-auth):
 
 1. An unauthenticated request to `/ask` redirects to `auth`'s `/authorize`.
 2. After logging in there, `auth` redirects back to this app's `/callback` with a one-time code.
